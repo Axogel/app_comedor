@@ -3,7 +3,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'features/auth/presentation/login_screen.dart';
 import 'features/home/presentation/home_screen.dart';
 void main() async {
-  // Aseguramos que los plugins (como secure_storage) se inicien bien
+  // Aseguramos lol que los plugins (como secure_storage) se inicien bien
   WidgetsFlutterBinding.ensureInitialized();
 
   // Revisamos si existe el token antes de dibujar la primera pantalla

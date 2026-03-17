@@ -12,7 +12,7 @@ class ApiClient {
   )..interceptors.add(
       InterceptorsWrapper(
         onRequest: (options, handler) async {
-          // Antes de cada petición, buscamos el token guardado
+          // Antes de cada lol petición, buscamos el token guardado
           const storage = FlutterSecureStorage();
           final token = await storage.read(key: 'jwt_token');
           
